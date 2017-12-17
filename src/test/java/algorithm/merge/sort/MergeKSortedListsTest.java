@@ -9,10 +9,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * MergeKSortedArrayTest for testing MergeKSortedArray.
+ * MergeKSortedListsTest for testing MergeKSortedLists.
  */
 
-public class MergeKSortedArrayTest {
+public class MergeKSortedListsTest {
 
     private MergeKSortedLists mergeKSortedLists = new MergeKSortedListsImpl();
 
