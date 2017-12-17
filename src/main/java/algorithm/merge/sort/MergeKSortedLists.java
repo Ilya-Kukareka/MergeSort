@@ -12,5 +12,5 @@ public interface MergeKSortedLists {
      * @param lists
      * @return List<Integer>
      */
-     List<Integer> mergeSortedLists(List<List<Integer>> lists);
+    List<Integer> mergeSortedLists(List<List<Integer>> lists);
 }

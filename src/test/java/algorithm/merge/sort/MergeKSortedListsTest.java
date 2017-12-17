@@ -17,7 +17,7 @@ public class MergeKSortedListsTest {
     private MergeKSortedLists mergeKSortedLists = new MergeKSortedListsImpl();
 
     @Test
-    public void mergeArrays_correctExecution() {
+    public void mergeLists_correctExecution() {
 
         //setup
         List<Integer> list1 = new ArrayList<Integer>() {{
@@ -52,7 +52,7 @@ public class MergeKSortedListsTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void mergeArrays_whenEmptyList() {
+    public void mergeLists_whenEmptyList() {
         //run
         mergeKSortedLists.mergeSortedLists(null);
     }
